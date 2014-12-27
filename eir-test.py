@@ -9,3 +9,5 @@ def fib(n):
         return fib(n-1) + fib(n-2)
 
 list(map(fib, range(0,10)))
+
+list(map(fib, range(0,15)))
