@@ -1,4 +1,5 @@
 ;;; Hy
+
 (defn fib [n]
   (cond
    [(<= n 2) 1]
