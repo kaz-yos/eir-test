@@ -1,5 +1,6 @@
 (* SML *)
 
+(* Naive recursive Fibonacci *)
 fun fib n =
     case n of
         0 => 1
@@ -8,3 +9,6 @@ fun fib n =
 
 (* http://stackoverflow.com/questions/9398318/does-sml-have-an-analog-to-pythons-range *)
 map fib (List.tabulate(10, fn x => x))
+map fib (List.tabulate(20, fn x => x))
+map fib (List.tabulate(30, fn x => x))
+map fib (List.tabulate(35, fn x => x))

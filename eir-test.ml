@@ -7,7 +7,7 @@ let (--) i j =
     if n < i then acc else aux (n-1) (n :: acc)
   in aux j []
 
-(* Fibonacci function *)
+(* Naive recursive Fibonacci *)
 let rec fib n =
   match n with
     0 -> 1
@@ -16,3 +16,6 @@ let rec fib n =
 
 (* map to a sequence of values *)
 List.map fib (0--9)
+List.map fib (0--19)
+List.map fib (0--29)
+List.map fib (0--34)
